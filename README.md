@@ -252,6 +252,20 @@ If you use this tool in your work, please cite:
 
 ---
 
+# Bibliography
+
+Gaudard, L., Romerio, F., Dalla Valle, F., Gorret, R., Maran, S., Ravazzani, G., Stoffel, M., & Volonterio, M. (2014). Climate change impacts on hydropower in the Swiss and Italian Alps. Science of the Total Environment, 493, 1211–1221. https://doi.org/10.1016/j.scitotenv.2013.10.012
+
+Poussin, C., Peduzzi, P., & Giuliani, G. (2025). Snow observation from space: An approach to improving snow cover detection using four decades of Landsat and Sentinel-2 imageries across Switzerland. Science of Remote Sensing, 11, 100182. https://doi.org/10.1016/j.srs.2024.100182
+
+RGI 7.0 Consortium, 2023. Randolph Glacier Inventory - A Dataset of Global Glacier Outlines, Version 7.0. Boulder, Colorado USA. NSIDC: National Snow and Ice Data Center. doi:10.5067/f6jmovy5navz. Online access: https://doi.org/10.5067/f6jmovy5navz
+
+Schmucki, E., Marty, C., Fierz, C., Weingartner, R., & Lehning, M. (2017). Impact of climate change in Switzerland on socioeconomic snow indices. Theoretical and Applied Climatology, 127(3), 875–889. https://doi.org/10.1007/s00704-015-1676-7
+
+Vitasse, Y., Rebetez, M., Filippa, G. et al. ‘Hearing’ alpine plants growing after snowmelt: ultrasonic snow sensors provide long-term series of alpine plant phenology. Int J Biometeorol 61, 349–361 (2017). https://doi.org/10.1007/s00484-016-1216-x
+
+
+
 ## License
 
 MIT
