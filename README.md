@@ -1,6 +1,6 @@
 # Glacier Snow Cover Analysis
 
-A Python package for computing the **minimum annual snow-cover fraction** on glaciers from Sentinel-2 imagery, using the [OpenEO](https://openeo.cloud/) API and Copernicus Dataspace.
+A Python module for computing the **minimum annual snow-cover fraction** on glaciers from Sentinel-2 imagery, using the [OpenEO](https://openeo.cloud/) API and Copernicus Dataspace.
 
 Developed as part of the course *Retrieval of Biophysical Parameters from Optical and Radar Data* at the University of Pavia.
 
