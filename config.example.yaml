@@ -1,0 +1,26 @@
+# config.yaml — example configuration for the glacier-snow pipeline
+# Copy this file and edit the values to match your study area.
+
+glacier_name: Perito_Moreno
+glacier_path: ./data/perito_moreno_glacier.geojson
+data_path:    ./results
+skip_mask:    false      # set true to use an RGI outline directly
+
+mask:
+  temporal_start:  "2018-02-15"
+  temporal_end:    "2018-03-15"
+  cloud_cover_max: 20
+
+timeseries:
+  temporal_start:  "2018-02-01"
+  temporal_end:    "2024-06-30"
+  cloud_cover_max: 20
+  ndsi_threshold:  0.4
+
+job:
+  max_retries:          3
+  retry_delay_seconds:  60   # doubles after each failed attempt
+
+logging:
+  level:    INFO
+  log_file: null   # e.g. "./results/pipeline.log" to also write to a file

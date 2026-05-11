@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "glacier-snow-analysis"
+version = "0.1.0"
+description = "Time-series analysis of snow cover on glaciers via Sentinel-2 and OpenEO"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Julieta del Mar Motter" },
+  { name = "Manuel Zeballos" },
+]
+
+dependencies = [
+  "openeo>=0.28",
+  "numpy",
+  "xarray",
+  "rioxarray",
+  "pandas",
+  "geopandas",
+  "rasterio",
+  "fiona",
+  "shapely",
+  "matplotlib",
+  "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov", "black", "ruff"]
+
+[project.scripts]
+glacier-snow = "glacier_snow_analysis.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["glacier_snow_analysis*"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.black]
+line-length = 100
